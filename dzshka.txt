@@ -1,0 +1,8 @@
+cd C:\Users\Pavlovska\Desktop
+set /p sozdat="What should i create "
+md %sozdat%
+tree
+tree > file.txt
+set /p udalit="What should i delete "
+rd %udalit% /S/Q
+tree >>file.txt
